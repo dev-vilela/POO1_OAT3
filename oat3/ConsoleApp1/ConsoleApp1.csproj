@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F284ADE-3B2C-4BFF-A862-839821FAA239}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="exercice24.cs" />
+    <Compile Include="exercice23.cs" />
+    <Compile Include="exercice27.cs" />
+    <Compile Include="exercice47.cs" />
+    <Compile Include="exercice63.cs" />
+    <Compile Include="exercice62.cs" />
+    <Compile Include="exercice61.cs" />
+    <Compile Include="exercice60.cs" />
+    <Compile Include="exercice59.cs" />
+    <Compile Include="exercice58.cs" />
+    <Compile Include="exercice57.cs" />
+    <Compile Include="exercice56.cs" />
+    <Compile Include="exercice55.cs" />
+    <Compile Include="exercice54.cs" />
+    <Compile Include="exercice53.cs" />
+    <Compile Include="exercice52.cs" />
+    <Compile Include="exercice51.cs" />
+    <Compile Include="exercice50.cs" />
+    <Compile Include="exercice49.cs" />
+    <Compile Include="exercice48.cs" />
+    <Compile Include="exercice46.cs" />
+    <Compile Include="exercice45.cs" />
+    <Compile Include="exercice44.cs" />
+    <Compile Include="exercice43.cs" />
+    <Compile Include="exercice42.cs" />
+    <Compile Include="exercice41.cs" />
+    <Compile Include="exercice40.cs" />
+    <Compile Include="exercice39.cs" />
+    <Compile Include="exercice38.cs" />
+    <Compile Include="exercice37.cs" />
+    <Compile Include="exercice36.cs" />
+    <Compile Include="exercice35.cs" />
+    <Compile Include="exercice34.cs" />
+    <Compile Include="exercice33.cs" />
+    <Compile Include="exercice32.cs" />
+    <Compile Include="exercice31.cs" />
+    <Compile Include="exercice30.cs" />
+    <Compile Include="exercice29.cs" />
+    <Compile Include="exercice28.cs" />
+    <Compile Include="exercice26.cs" />
+    <Compile Include="exercice25.cs" />
+    <Compile Include="exercice22.cs" />
+    <Compile Include="exercice21.cs" />
+    <Compile Include="exercice20.cs" />
+    <Compile Include="exercice19.cs" />
+    <Compile Include="exercice18.cs" />
+    <Compile Include="exercice17.cs" />
+    <Compile Include="exercice16.cs" />
+    <Compile Include="exercice15.cs" />
+    <Compile Include="exercice14.cs" />
+    <Compile Include="exercice13.cs" />
+    <Compile Include="exercice12.cs" />
+    <Compile Include="exercice11.cs" />
+    <Compile Include="exercice10.cs" />
+    <Compile Include="exercice09.cs" />
+    <Compile Include="exercice08.cs" />
+    <Compile Include="exercice07.cs" />
+    <Compile Include="exercice06.cs" />
+    <Compile Include="exercice05.cs" />
+    <Compile Include="exercice04 .cs" />
+    <Compile Include="exercice03.cs" />
+    <Compile Include="exercice02.cs" />
+    <Compile Include="exercice01.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
